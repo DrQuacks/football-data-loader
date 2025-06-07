@@ -1,0 +1,21 @@
+{
+  "name": "fantasy-football-data-loader",
+  "version": "1.0.0",
+  "description": "Script to load fantasy football CSVs into a PostgreSQL database",
+  "main": "scripts/loadReceivingCsv.ts",
+  "type": "module",
+  "scripts": {
+    "load:receiving": "ts-node scripts/loadReceivingCsv.ts"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.5.0",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/pg": "^8.15.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
+}
